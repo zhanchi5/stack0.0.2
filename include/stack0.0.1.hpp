@@ -37,16 +37,6 @@ size_t stack<T>::array_size() const
 {
     return array_size_;
 }
-/*template<typename T>
-std::ostream& operator <<(std::ostream& os, stack<T> val){
-    if (count_ == 0) std::cout << "Stack is empty" << std::endl;
-    else
-        for(int i=0; i < count_; i++)
-            std::cout<< array_[i] << ' ';
-    std::cout << std::endl;
-    return os;
-}
-*/
 
 template<typename T>
 stack<T>::stack()
